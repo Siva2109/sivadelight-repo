@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.sivadelight" name="SivaDelight" version="1.1.45" provider-name="Buddy">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.25.1"/>
+        <import addon="script.module.beautifulsoup4" version="4.9.3"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.resolveurl" version="5.0.0"/>
+        <import addon="script.module.pycryptodome" version="3.4.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">SivaDelight Tamil Movies</summary>
+        <description lang="en_GB">Watch Tamil Movies from Tamilgun, 5MovieRulz, Tamilyogi.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon_siva.png</icon>
+            <fanart>fanart_siva.png</fanart>
+        </assets>
+    </extension>
+</addon>
