@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.sivadelight" name="SivaDelight" version="2.1.7" provider-name="SivaKumar">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.25.1"/>
+        <import addon="script.module.beautifulsoup4" version="4.9.3"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.resolveurl" version="5.0.0"/>
+        <import addon="script.module.pycryptodome" version="3.4.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">SivaDelight Kodi Addon Repository</summary>
+        <description lang="en">
+SivaDelight Repository: High-quality addons for the community. 
+
+Support the project:
+• International: ko-fi.com/siva2109
+• Malaysia/India: Scan the TNG QR on our GitHub page!
+
+Your donations help cover server costs and keep updates free for everyone.
+        </description>
+        <website>https://ko-fi.com/siva2109</website>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+</addon>
